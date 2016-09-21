@@ -2,8 +2,8 @@
 
 var os = require('os');
 var express = require('express')
-var client = require('prom-client')
-var epimetheus = require('epimetheus')
+var client = require('@qutics/prom-client')
+var epimetheus = require('@qutics/epimetheus')
 
 var counter = new client.Counter('example_processed_things_total', 'Counter of things');
 
