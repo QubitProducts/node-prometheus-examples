@@ -9,8 +9,8 @@ There are two libraries for prometheus monitoring:
 To install the prometheus libraries use:
 
 ```
-npm install --save https://github.com/QubitProducts/prom-client/archive/master.tar.gz
-npm install --save https://github.com/qubitdigital/node-epimetheus/archive/master.tar.gz
+npm install --save @qutics/prom-client
+npm install --save @qutics/epimetheus
 ```
 
 This respository includes simple examples of how to instrument applications

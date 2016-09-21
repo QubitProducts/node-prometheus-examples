@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.14.0",
-    "prom-client": "https://github.com/QubitProducts/prom-client/archive/master.tar.gz",
-    "epimetheus": "https://github.com/qubitdigital/node-epimetheus/archive/master.tar.gz"
+    "@qutics/epimetheus": "0.0.2",
+    "@qutics/prom-client": "^4.1.0",
+    "express": "^4.14.0"
   }
 }
